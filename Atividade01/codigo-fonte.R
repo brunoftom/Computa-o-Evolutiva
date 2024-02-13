@@ -1,7 +1,3 @@
-
-
-
-
 # Função de Aptidão
 funcao_aptidao <- function(x) {
   return(x * sin(10 * pi * x) + 1)
@@ -43,7 +39,6 @@ valores_mu <- c(1, 3)
 valores_lambda <- c(2, 5)
 valores_tmax <- c(10, 20)
 
-
 for(i in 1:30) {
   for (mu in valores_mu) {
     for (lmbda in valores_lambda) {
@@ -54,5 +49,3 @@ for(i in 1:30) {
     }
   }
 }
-
-
